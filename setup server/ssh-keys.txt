@@ -1,0 +1,8 @@
+Create an RSA pair and keep the private key on your local machine. Put the public keys on the servers to which you want to connect.
+
+On windows
+=============
+1. Install Putty (It will also install Puttygen which is used to create Key Pair on windows)
+2. Open Puttygen and generate new key.
+3. Save the private key on your computer and put the public keys on the server
+4. Open Putty, go to Auth menu under SSH and set your private key.

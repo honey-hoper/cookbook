@@ -1,0 +1,20 @@
+Link
+======
+https://www.digitalocean.com/community/tutorials/how-to-install-mysql-on-ubuntu-18-04
+
+Steps
+======
+1. apt update
+2. apt install mysql-server
+
+This will install the mysql but this installation is insecure
+Run the below script which is included to secure mysql
+
+3. mysql_secure_installation
+
+
+This will make the root user to connect using password
+4. ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY 'password';
+
+This will make changes to take effect
+5. FLUSH PRIVILEGES

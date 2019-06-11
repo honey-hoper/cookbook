@@ -1,0 +1,2 @@
+1. Create new Google Maps Activity and follow the steps
+2. Open Google cloud console and enable Google Maps SDK for android and generate an restricted API KEY

@@ -1,0 +1,2 @@
+1. CREATE DATABASE newdatabase;
+2. mysql -u [username] -p newdatabase < [database name].sql
